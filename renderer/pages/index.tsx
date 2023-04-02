@@ -1,6 +1,6 @@
 import {useEffect} from 'react';
 import Link from 'next/link';
-import Layout from '../components/Layout';
+import Layout from '../components/layouts/Layout';
 
 const IndexPage = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const IndexPage = () => {
   };
 
   return (
-    <Layout title='Home | Next.js + TypeScript + Electron Example'>
+    <Layout>
       <h1 className='text-primary'>Hello Next.js 👋</h1>
       <button onClick={onSayHiClick}>Say hi to electron</button>
       <p>
