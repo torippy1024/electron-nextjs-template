@@ -27,7 +27,7 @@
     "@types/react-dom": "^16.9.9",
     "autoprefixer": "^10.4.14",
     "electron": "^13",
-    "electron-builder": "^23.0.3",
+    "electron-builder": "^24.13.3",
     "next": "latest",
     "postcss": "^8.4.21",
     "rimraf": "^3.0.0",
